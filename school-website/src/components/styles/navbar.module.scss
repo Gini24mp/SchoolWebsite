@@ -1,0 +1,14 @@
+.background{
+  @apply bg-white;
+
+}
+
+.LinksWrapper{
+  @apply hidden md:block;
+}
+
+.NavBarLink{
+  @apply text-gray-500 transition;
+  @apply hover:text-gray-500/75;
+  
+}
