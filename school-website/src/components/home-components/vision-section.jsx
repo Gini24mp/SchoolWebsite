@@ -10,7 +10,7 @@ function visionSection(){
 
     return(
     <section className="bg-gray-100">
-    <div className="mx-auto max-w-screen-xl px-4 py-9 sm:px-6 sm:py-16 lg:px-8">
+    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-4 lg:px-8">
         <div className="max-w-3xl">
         <h2 className="text-9xl font-bold sm:text-4xl text-rose-800">
             Our Vision
