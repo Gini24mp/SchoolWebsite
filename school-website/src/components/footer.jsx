@@ -2,12 +2,14 @@ import Image from "next/image";
 
 function Footer() {
     const pages = [
+        { Page : "Home", href: "/"},
         { Page : "About", href: "/about"},
         { Page : "Admissions", href: "/admissions"},
         { Page : "News", href: "/news"},
-        { Page : "Arts", href: "/arts"},
-        { Page : "Culture", href: "/culture"},
+        { Page : "Academics", href: "/academics"},
+        { Page : "Arts & Culture", href: "/arts"},
         { Page : "Sports", href: "/sports"},
+        { Page : "Contact Us", href: "/contact"},
       ];
     
       const pageLinks = pages.map((page)=>

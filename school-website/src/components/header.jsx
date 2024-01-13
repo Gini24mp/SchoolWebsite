@@ -6,6 +6,7 @@ import Image from 'next/image';
 function NavBar() {
 
   const pages = [
+    { Page : "Home", href: "/"},
     { Page : "About", href: "/about"},
     { Page : "Admissions", href: "/admissions"},
     { Page : "News", href: "/news"},
