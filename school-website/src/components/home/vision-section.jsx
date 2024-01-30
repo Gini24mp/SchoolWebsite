@@ -1,12 +1,4 @@
-import { faker } from "@faker-js/faker";
-
 function visionSection(){
-
-    const imageUrl = faker.image.urlLoremFlickr({
-        category: 'nature',
-        height: 1080, 
-        width: 1920, 
-    });
 
     return(
     <section className="bg-gray-100">
@@ -29,14 +21,14 @@ function visionSection(){
         <div className="lg:py-5">
             <article className="space-y-4 text-black text-xl">
             <p className="first-letter:text-4xl first-letter:font-bold first-letter:text-rose-800">
-                Saint Paul High School envisions a future where graduates emerge not just prepared for 
+                Proverbs Private College envisions a future where matriculants emerge not just prepared for 
                 university, but equipped to lead lives of purpose and grace. They are lifelong learners, 
-                driven by curiosity and the will to make a difference. They carry the torch of Saint Paul's values, 
+                driven by curiosity and the will to make a difference. They carry the torch of Proverb's values, 
                 lighting the way for a brighter, more just world.
             </p>
 
             <p>
-                This vision, vibrant and hopeful, serves as a beacon for students, faculty, and the community,
+                This vision, vibrant and hopeful, serves as a beacon for students, staff, and the community,
                 uniting them in the pursuit of something greater than themselves. It paints a picture of a 
                 school that transcends mere education, becoming a breeding ground for future leaders, changemakers, 
                 and compassionate individuals.

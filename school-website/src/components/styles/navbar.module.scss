@@ -10,5 +10,8 @@
 .NavBarLink{
   @apply text-gray-500 transition;
   @apply hover:text-gray-500/75;
+  @apply hover:text-rose-600;
+  @apply hover:font-bold;
+  @apply hover:text-lg;
   
 }

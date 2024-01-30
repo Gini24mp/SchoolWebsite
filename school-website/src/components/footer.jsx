@@ -13,7 +13,7 @@ function Footer() {
       ];
     
       const pageLinks = pages.map((page)=>
-        <a className="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase" href={page.href}> {page.Page} </a>
+        <a key={page.Page} className="hidden md:block cursor-pointer text-gray-600 hover:text-black uppercase" href={page.href}> {page.Page} </a>
       );
 
     return(
@@ -26,9 +26,9 @@ function Footer() {
                     </h1>
                 </div>
                 <div className="flex mt-8 flex-col md:flex-row md:justify-between">
-                    <p className="w-full md:w-2/3 text-black">To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged</p>
+                    <p className="w-full md:w-2/3 text-black">To get in touch with our school, please feel free to contact us. We are here to answer any questions you may have and provide assistance.</p>
                     <div className="w-44 pt-6 md:pt-0">
-                        <a className="bg-rose-800 justify-center text-white text-center rounded-lg shadow px-10 py-3 flex items-center">Contact Us</a>
+                        <a href="/contact" className="bg-rose-800 justify-center text-white text-center rounded-lg shadow px-10 py-3 flex items-center">Contact Us</a>
                     </div>
                 </div>
                 <div className="flex flex-col">
@@ -38,7 +38,7 @@ function Footer() {
                             src="/images/school-badge.svg"
                             width={80}
                             height={80}
-                            alt="Saint Paul School Badge"
+                            alt="Proverbs Private College Badge"
                         />  
                         </div>
 
