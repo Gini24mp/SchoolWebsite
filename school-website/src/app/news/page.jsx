@@ -1,7 +1,7 @@
-import NavBar from "@/components/header";
-import Footer from "@/components/footer";
-import MainNewsPage from "@/components/news-components/main-news-page";
-import TopHeading from "@/components/news-components/top-heading";
+import NavBar from "@/components/basic/header";
+import Footer from "@/components/basic/footer";
+import MainNewsPage from "@/components/news/main-news-page";
+import TopHeading from "@/components/news/top-heading";
 
 function NewsPage(){
     return(

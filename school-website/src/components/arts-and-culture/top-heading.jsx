@@ -1,7 +1,7 @@
 function TopHeading(){
     return(
         <>
-        <h1 class="mb-4 text-4xl text-center text-rose-800 font-extrabold leading-none tracking-tight  py-3 md:text-5xl lg:text-6xl dark:text-white">Cultural activities</h1>
+        <h1 className="mb-4 text-4xl text-center text-rose-800 font-extrabold leading-none tracking-tight  py-3 md:text-5xl lg:text-6xl dark:text-white">Cultural activities</h1>
         <section>
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">

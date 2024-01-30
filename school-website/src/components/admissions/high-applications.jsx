@@ -1,14 +1,14 @@
 function HighApplications() {
     return (
       <section className="px-8">
-      <h2 class="text-4xl font-extrabold text-rose-800 py-6 text-center dark:text-white">High School Applications</h2>
-      <p class="my-4  text-lg text-black">
+      <h2 className="text-4xl font-extrabold text-rose-800 py-6 text-center dark:text-white">High School Applications</h2>
+      <p className="my-4  text-lg text-black">
       Lorem ipsum dolor sit amet, mea illud albucius ea. Meis hendrerit sit et, 
       cum cu etiam consulatu, veniam euismod definiebas ius no. Bonorum elaboraret 
       eos cu, solum fugit ne sit, nec ex mentitum posidonium. Bonorum hendrerit mel cu, 
       cu case ullamcorper duo.
       </p>
-      <p class="mb-4 text-lg  font-normal text-black dark:text-gray-400">
+      <p className="mb-4 text-lg  font-normal text-black dark:text-gray-400">
       Lorem ipsum dolor sit amet, mea illud albucius ea. Meis hendrerit sit et, 
       cum cu etiam consulatu, veniam euismod definiebas ius no. Bonorum elaboraret 
       eos cu, solum fugit ne sit, nec ex mentitum posidonium. Bonorum hendrerit mel cu, 

@@ -1,6 +1,6 @@
 "use client"
 
-import styles from './styles/navbar.module.scss'
+import styles from '../styles/navbar.module.scss'
 import Image from 'next/image';
 
 function NavBar() {

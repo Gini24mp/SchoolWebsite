@@ -1,5 +1,5 @@
-import NavBar from "@/components/header";
-import Footer from "@/components/footer";
+import NavBar from "@/components/basic/header";
+import Footer from "@/components/basic/footer";
 import ContactInfo from "@/components/contact/contact-info";
 
 function ContactPage(){

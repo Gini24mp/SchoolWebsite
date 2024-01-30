@@ -1,8 +1,8 @@
-import NavBar from "@/components/header";
-import Footer from "@/components/footer";
-import TopHeading from "@/components/admissions-components/top-heading";
-import PrimaryApplications from "@/components/admissions-components/primary-applications";
-import HighApplications from "@/components/admissions-components/high-applications";
+import NavBar from "@/components/basic/header";
+import Footer from "@/components/basic/footer";
+import TopHeading from "@/components/admissions/top-heading";
+import PrimaryApplications from "@/components/admissions/primary-applications";
+import HighApplications from "@/components/admissions/high-applications";
 
 function AdmissionsPage(){
     return(

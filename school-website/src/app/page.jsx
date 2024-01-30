@@ -1,8 +1,8 @@
 "use client"
 
 import React from "react"; 
-import NavBar from "@/components/header";
-import Footer from "@/components/footer";
+import NavBar from "@/components/basic/header";
+import Footer from "@/components/basic/footer";
 import Topbanner from "@/components/home/top-banner";
 import Vision from "@/components/home/vision-section";
 import PrincipalSection from "@/components/home/principal-section";
