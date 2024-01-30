@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" class="bg-gray-100">
+    <html lang="en" className="bg-gray-100">
       <link rel="icon" href="/images/school-badge.svg" sizes="any" />
       <body className={inter.className}>{children}</body>
     </html>
